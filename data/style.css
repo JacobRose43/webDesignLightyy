@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+}
+
+.backgroundShapes {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	z-index: -1;
+}
+
+.circle1 {
+	display: inline-block;
+	width: 33vw;
+	height: 33vw;
+	border-radius: 50%;
+	background: #ffa564;
+	filter: blur(210px);
+}
+.circle2 {
+	display: inline-block;
+	width: 33vw;
+	height: 33vw;
+	border-radius: 50%;
+	background: #ff5981;
+	filter: blur(210px);
+}
+.circle3 {
+	display: inline-block;
+	width: 33vw;
+	height: 33vw;
+	border-radius: 50%;
+	background: #62f6ff;
+	filter: blur(210px);
+}
+.circle4 {
+	display: inline-block;
+	width: 49vw;
+	height: 25vw;
+	border-radius: 50%;
+	background: #78c2ff;
+	filter: blur(210px);
+}
+.circle5 {
+	display: inline-block;
+	width: 49vw;
+	height: 25vw;
+	border-radius: 50%;
+	background: #609fff;
+	filter: blur(210px);
+}
+
+.intro {
+	display: flex;
+	justify-content: space-between;
+	height: 100vh;
+	width: 100vw;
+}
+
+.leftBar {
+	height: 100vh;
+	width: 5vw;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+}
+
+.rightBar {
+	height: 100vh;
+	width: 5vw;
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.1));
+}
+
+.centerBar {
+	height: 100vh;
+	width: 90vw;
+}
