@@ -22,6 +22,7 @@ body {
 	border-radius: 50%;
 	background: #ffa564;
 	filter: blur(210px);
+	animation: animation 4s infinite;
 }
 .circle2 {
 	display: inline-block;
@@ -29,7 +30,8 @@ body {
 	height: 33vw;
 	border-radius: 50%;
 	background: #ff5981;
-	filter: blur(210px);
+	filter: blur(160px);
+	animation: animation2 5s infinite;
 }
 .circle3 {
 	display: inline-block;
@@ -38,6 +40,7 @@ body {
 	border-radius: 50%;
 	background: #62f6ff;
 	filter: blur(210px);
+	animation: animation 4s infinite;
 }
 .circle4 {
 	display: inline-block;
@@ -45,7 +48,8 @@ body {
 	height: 25vw;
 	border-radius: 50%;
 	background: #9c78ff;
-	filter: blur(210px);
+	filter: blur(160px);
+	animation: animation2 5s infinite;
 }
 .circle5 {
 	display: inline-block;
@@ -53,7 +57,31 @@ body {
 	height: 25vw;
 	border-radius: 50%;
 	background: #609fff;
-	filter: blur(210px);
+	filter: blur(160px);
+	animation: animation2 4s infinite;
+}
+
+@keyframes animation {
+	0% {
+		filter: blur(210px);
+	}
+	50% {
+		filter: blur(160px);
+	}
+	100% {
+		filter: blir(210px);
+	}
+}
+@keyframes animation2 {
+	0% {
+		filter: blur(160px);
+	}
+	50% {
+		filter: blur(210px);
+	}
+	100% {
+		filter: blur(160px);
+	}
 }
 
 .intro {
@@ -104,6 +132,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
+	transition: 0.3s;
 }
 
 .button2 {
@@ -115,6 +145,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	cursor: pointer;
 }
 
 .button1 > .buttonText {
